@@ -1,52 +1,101 @@
 # API Pokémon
 
-Una API RESTful que permite acceder a información detallada sobre Pokémon, incluyendo datos como nombre, tipo, estadísticas y movimientos.
+Este repositorio contiene dos carpetas principales:
 
-## 🚀 Instalación
+- **Backend**: API construida con FastAPI, SQLModel y migraciones con Alembic.  
+- **Frontend**: Proyecto frontend hecho con Svelte.
+
+---
+
+## 🚀 Instalación y ejecución
+
+### Backend
 
 1. Clona el repositorio:
 
    ```bash
    git clone https://github.com/Nehuenkend/API_pokemon.git
-   cd API_pokemon
+   cd API_pokemon/backend
    ```
 
-2. Instala las dependencias:
+2. Crea y activa un entorno virtual de Python (recomendado):
+
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate   # En Linux/macOS
+   .\.venv\Scripts\activate  # En Windows PowerShell
+   ```
+
+3. Instala las dependencias:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Ejecuta las migraciones con Alembic para crear la base de datos y las tablas:
+
+   ```bash
+   alembic upgrade head
+   ```
+
+5. Inicia el servidor FastAPI:
+
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+6. La API backend estará disponible en `http://localhost:8000`.
+
+---
+
+### Frontend (Svelte)
+
+1. Abre otra terminal y navega a la carpeta del frontend:
+
+   ```bash
+   cd ../frontend
+   ```
+
+2. Si no tienes creado el proyecto Svelte, puedes crearlo con:
+
+   ```bash
+   npx create-svelte@latest
+   ```
+
+   (Sigue las instrucciones para configurar el proyecto)
+
+3. Instala las dependencias del frontend:
 
    ```bash
    npm install
    ```
 
-3. Inicia el servidor:
+4. Inicia el servidor de desarrollo:
 
    ```bash
-   npm start
+   npm run dev -- --open
    ```
 
-La API estará disponible en `http://localhost:3000`.
+5. El frontend estará disponible usualmente en `http://localhost:5173`.
 
-## 📚 Endpoints disponibles
+---
 
-- `GET /pokemon`: Obtiene una lista de todos los Pokémon.
-- `GET /pokemon/:id`: Obtiene información detallada de un Pokémon por su ID.
-- `GET /types`: Obtiene una lista de todos los tipos de Pokémon.
-- `GET /types/:type`: Obtiene una lista de Pokémon por tipo.
+## 📚 Uso
 
-## 🧪 Pruebas
+- El backend sirve la API REST para consumir datos de Pokémon.  
+- El frontend consume esa API para mostrar la información en una interfaz amigable.
 
-Para ejecutar las pruebas unitarias:
-
-```bash
-npm test
-```
+---
 
 ## 🛠️ Tecnologías utilizadas
 
-- Node.js
-- Express
-- Jest (para pruebas)
+- Backend: FastAPI, SQLModel, Alembic  
+- Frontend: Svelte, Node.js
+
+---
 
 ## 📄 Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT.
+
 
