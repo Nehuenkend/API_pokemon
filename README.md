@@ -1,42 +1,52 @@
-API Pokémon
+# API Pokémon
+
 Una API RESTful que permite acceder a información detallada sobre Pokémon, incluyendo datos como nombre, tipo, estadísticas y movimientos.
 
-🚀 Instalación
-Clona el repositorio:
+## 🚀 Instalación
 
-git clone https://github.com/Nehuenkend/API_pokemon.git
-cd API_pokemon
+1. Clona el repositorio:
 
-Instala las dependencias:
+   ```bash
+   git clone https://github.com/Nehuenkend/API_pokemon.git
+   cd API_pokemon
+   ```
 
-npm install
+2. Instala las dependencias:
 
-Inicia el servidor:
+   ```bash
+   npm install
+   ```
 
-npm start
+3. Inicia el servidor:
 
-La API estará disponible en http://localhost:3000.
+   ```bash
+   npm start
+   ```
 
-📚 Endpoints disponibles
-GET /pokemon: Obtiene una lista de todos los Pokémon.
+La API estará disponible en `http://localhost:3000`.
 
-GET /pokemon/:id: Obtiene información detallada de un Pokémon por su ID.
+## 📚 Endpoints disponibles
 
-GET /types: Obtiene una lista de todos los tipos de Pokémon.
+- `GET /pokemon`: Obtiene una lista de todos los Pokémon.
+- `GET /pokemon/:id`: Obtiene información detallada de un Pokémon por su ID.
+- `GET /types`: Obtiene una lista de todos los tipos de Pokémon.
+- `GET /types/:type`: Obtiene una lista de Pokémon por tipo.
 
-GET /types/:type: Obtiene una lista de Pokémon por tipo.
+## 🧪 Pruebas
 
-🧪 Pruebas
 Para ejecutar las pruebas unitarias:
 
+```bash
 npm test
+```
 
-🛠️ Tecnologías utilizadas
-Node.js
+## 🛠️ Tecnologías utilizadas
 
-Express
+- Node.js
+- Express
+- Jest (para pruebas)
 
-Jest (para pruebas)
+## 📄 Licencia
 
-📄 Licencia
 Este proyecto está licenciado bajo la Licencia MIT.
+
