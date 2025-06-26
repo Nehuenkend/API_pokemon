@@ -1,0 +1,91 @@
+.icono-tipo {
+  display: inline-block;
+  width: 66px;
+  margin-bottom: 4px;
+  background: #dbdbdb;
+  border: 1px solid #a3a3a3;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+  transition: opacity 0.4s;
+}
+
+.tipo-acero {
+  background-color: #aaaabb;
+}
+
+.tipo-agua {
+  background-color: #39f;
+}
+
+.tipo-bicho {
+  background-color: #ab2;
+}
+
+.tipo-dragon {
+  background-color: #76e;
+}
+
+.tipo-electrico {
+  background-color: #fc3;
+  color: #000;
+}
+
+.tipo-fantasma {
+  background-color: #66b;
+}
+
+.tipo-fuego {
+  background-color: #f42;
+}
+
+.tipo-hada {
+  background-color: #e9e;
+  color: #000;
+}
+
+.tipo-hielo {
+  background-color: #6cf;
+}
+
+.tipo-lucha {
+  background-color: #b54;
+}
+
+.tipo-normal {
+  background-color: #aa9;
+}
+
+.tipo-planta {
+  background-color: #7c5;
+}
+
+.tipo-psiquico {
+  background-color: #f59;
+}
+
+.tipo-roca {
+  background-color: #ba6;
+}
+
+.tipo-siniestro {
+  background-color: #754;
+}
+
+.tipo-tierra {
+  background-color: #db5;
+}
+
+.tipo-veneno {
+  background-color: #a59;
+}
+
+.tipo-volador {
+  background-color: #89f;
+}
