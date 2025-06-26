@@ -4,23 +4,17 @@ Una API RESTful que permite acceder a información detallada sobre Pokémon, inc
 🚀 Instalación
 Clona el repositorio:
 
-bash
-Copiar
-Editar
 git clone https://github.com/Nehuenkend/API_pokemon.git
 cd API_pokemon
+
 Instala las dependencias:
 
-bash
-Copiar
-Editar
 npm install
+
 Inicia el servidor:
 
-bash
-Copiar
-Editar
 npm start
+
 La API estará disponible en http://localhost:3000.
 
 📚 Endpoints disponibles
@@ -35,10 +29,8 @@ GET /types/:type: Obtiene una lista de Pokémon por tipo.
 🧪 Pruebas
 Para ejecutar las pruebas unitarias:
 
-bash
-Copiar
-Editar
 npm test
+
 🛠️ Tecnologías utilizadas
 Node.js
 
