@@ -1,5 +1,5 @@
 <div>
-  <div class="links-navegacion">
+  <div class="links-navegacion centrar-footer">
     <div class="link-mov">
       <p class="titulo-link">Movimientos</p>
       <a href="/movimientos">
@@ -16,16 +16,6 @@
         <img
           src="/imagenes/pikachu.png"
           alt="Icono Pokémon"
-          class="icono-link"
-        />
-      </a>
-    </div>
-    <div class="link-equipo">
-      <p class="titulo-link">Equipos</p>
-      <a href="/equipos">
-        <img
-          src="/imagenes/pokemones.jpg"
-          alt="Icono Equipos"
           class="icono-link"
         />
       </a>

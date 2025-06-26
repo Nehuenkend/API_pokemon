@@ -11,9 +11,9 @@
       En esta pagina van a poder encontrar una amplia informacion sobre sus
       pokemones preferidos, navegando por cualquiera de las siguentes ventanas
     </p>
-    <div class="contenido">
+    <div class="contenido centrar-columnas">
       <div class="info-mov">
-        <p class="titulo-mov">Movimiento</p>
+        <p class="titulo-mov">Movimientos</p>
         <p class="descripcion">
           Explora todos los movimientos disponibles para tus Pokémon. Filtra por
           tipo, potencia o efecto para encontrar las mejores estrategias de
@@ -30,13 +30,6 @@
           únicas.
         </p>
       </div>
-      <div class="info-equipo">
-        <p class="titulo-equipo">Equipos</p>
-        <p class="descripcion">
-          Construye equipos estratégicos: analiza debilidades, cubre sinergias y
-          optimiza tu lineup para torneos.
-        </p>
-      </div>
     </div>
   </div>
 </div>
@@ -45,4 +38,10 @@
 
 <style>
   @import "$lib/css/styles.css";
+
+  .centrar-columnas {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
 </style>
