@@ -59,7 +59,7 @@ Este repositorio contiene dos carpetas principales:
 2. Si no tienes creado el proyecto Svelte, puedes crearlo con:
 
    ```bash
-   npx create-svelte@latest
+   npx sv create
    ```
 
    (Sigue las instrucciones para configurar el proyecto)
