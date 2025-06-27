@@ -2,8 +2,8 @@
 
 Este repositorio contiene dos carpetas principales:
 
-- **Backend**: API construida con FastAPI, SQLModel y migraciones con Alembic.  
-- **Frontend**: Frontend hecho con Svelte.
+- **Backend**: API REST construida con FastAPI, SQLModel y migraciones de Alembic.  
+- **Frontend**: Frontend hecho con JavaScript (Svelte), html y css.
 
 ---
 
@@ -82,7 +82,7 @@ Este repositorio contiene dos carpetas principales:
 
 ## 📚 Uso
 
-- El backend proporciona la API REST para proporcionar los datos de Pokémon.  
+- El backend lee y carga los datos de los pokemon y proporcionar los datos de los pokemones.  
 - El frontend utiliza esa API para mostrar la información en una interfaz amigable.
 
 ---
