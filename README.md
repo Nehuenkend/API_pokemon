@@ -41,7 +41,7 @@ Este repositorio contiene dos carpetas principales:
 5. Inicia el servidor FastAPI:
 
    ```bash
-   uvicorn main:app --reload
+   fastapi dev main.py
    ```
 
 6. La API backend estará disponible en `http://localhost:8000`.
@@ -73,7 +73,7 @@ Este repositorio contiene dos carpetas principales:
 4. Inicia el servidor de desarrollo:
 
    ```bash
-   npm run dev -- --open
+   npm run dev
    ```
 
 5. El frontend estará disponible usualmente en `http://localhost:5173`.
