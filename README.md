@@ -1,5 +1,7 @@
 # API Pokémon
 
+**Imágenes y Descripción de cada seccion del Front End de la Página**(https://www.linkedin.com/in/nehuen-kendziura/) 
+
 Este repositorio contiene dos carpetas principales:
 
 - **Backend**: API REST construida con FastAPI, SQLModel y migraciones de Alembic.  
